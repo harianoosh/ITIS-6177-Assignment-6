@@ -55,10 +55,8 @@
             console.log(response);
             document.getElementById("title").value = "";
             document.getElementById("author").value = "";
-
             getPosts();
-
-            document.getElementById("title").value.focus();
+            document.getElementById("title").focus();
           })
           .catch(function (error) {
             console.log(error);
